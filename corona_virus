@@ -23,7 +23,7 @@ func esmagar():
 	if not vivo: return
 	vivo = false
 	get_node("anim").stop()
-	get_node("sprite").set_texture(load("res://assets/Inimigo/slimeDead.png"))
+	get_node("sprite").set_texture(load("res://assets/Inimigo/covidDead.png"))
 	get_node("sprite").set_offset(Vector2(0, 8))
 	get_node("shape").queue_free()
 	set_fixed_process(false)
